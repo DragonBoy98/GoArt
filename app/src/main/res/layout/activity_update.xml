@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".UpdateActivity">
+
+
+    <Button
+        android:id="@+id/pickButton"
+        android:layout_width="161dp"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="54dp"
+        android:layout_marginStart="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="pickImage"
+        android:text="@string/select_picture" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="138dp"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="146dp"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <Button
+        android:id="@+id/postButton"
+        android:layout_width="164dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/pickButton"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="postAction"
+        android:text="@string/post" />
+
+    <TextView
+        android:id="@+id/GoArtView"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="  GoArt                         "
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text="Share your art with the world!"
+        android:textColor="@android:color/black" />
+
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:ems="10"
+        android:hint="@string/enter_your_artist_company_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/descriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/phoneText"
+        android:ems="10"
+        android:hint="@string/enter_a_brief_description_of_your_artwork"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/phoneText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nameText"
+        android:ems="10"
+        android:hint="@string/enter_your_phone_number"
+        android:inputType="phone"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="122dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:text="@string/please_upload_a_picture_of_your_artwork"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/priceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/descriptionText"
+        android:ems="10"
+        android:hint="Enter the price of the artwork..."
+        android:inputType="text"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
+
+
+

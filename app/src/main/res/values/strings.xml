@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GoArt</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="button_main">Next</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="post">Post</string>
+    <string name="welcome_to_goart">Welcome To GoArt!</string>
+    <string name="enter_your_artist_company_name">Enter your Artist /Company name...</string>
+    <string name="enter_a_brief_description_of_your_artwork">Enter a brief description of your Artwork...</string>
+    <string name="enter_your_phone_number">Enter your phone number...</string>
+    <string name="please_upload_a_picture_of_your_artwork">Please upload a picture of your artwork</string>
+    <string name="welcome_to_goart_the_app_that_provides_a_global_market_for_your_artworks_are_you_ready_to_sell_your_art_to_the_world">Welcome to GoArt! The App that provides a global market for your artworks! Are you ready to sell your art to the WORLD?</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="digital_paintings">DIGITAL PAINTINGS</string>
+</resources>

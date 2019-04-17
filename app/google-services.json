@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "664155927742",
+    "firebase_url": "https://goart-39349.firebaseio.com",
+    "project_id": "goart-39349",
+    "storage_bucket": "goart-39349.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664155927742:android:469858ed5f9067ce",
+        "android_client_info": {
+          "package_name": "com.iyika.root.goart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664155927742-5i8mjao3e9hofgb1jb45haf6b7umkb6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iyika.root.goart",
+            "certificate_hash": "0b3af8d3eccddaf95f69c78c8fda7061a98dc496"
+          }
+        },
+        {
+          "client_id": "664155927742-7lojjouvnj2qo37dt0h5sgefoj29oldq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMLkdedDYU1wUgqnCnwEsxLHsoMtMSlHE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664155927742-7lojjouvnj2qo37dt0h5sgefoj29oldq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

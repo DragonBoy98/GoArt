@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".Display">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="5dp"
+            android:text="MY POSTS"
+            android:textColor="@android:color/black" />
+
+
+        <ImageView
+            android:id="@+id/imgDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_above="@+id/displayText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+        <TextView
+            android:id="@+id/displayText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="40dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/phoneText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="40dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/descriptionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="40dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/priceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="40dp"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="56dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="newPost"
+        android:text="new post"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="categoriesFunction"
+        android:padding="10dp"
+        android:text="Categories"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
+
